@@ -14,8 +14,9 @@ public class VerifyTitle {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://Amazon.com");
-//test comment 12
-		Assert.assertTrue(driver.getTitle().contains("AMAZON"));
+		Thread.sleep(1000);
+		Assert.assertTrue(driver.getTitle().contains("Amazon"));
+		Thread.sleep(1000);
 		driver.quit();
 		
 
