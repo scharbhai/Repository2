@@ -1,5 +1,8 @@
-package regressionTest;
+/*
+ * Author : Shailaja Charbhai
+ */
 
+package regressionTest;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
