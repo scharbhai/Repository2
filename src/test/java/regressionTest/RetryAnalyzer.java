@@ -13,9 +13,9 @@ public class RetryAnalyzer implements IRetryAnalyzer {
  
     @Override
     public boolean retry(ITestResult iTestResult) {
-        if (!iTestResult.isSuccess()) {                      //Check if test not success
-            if (count < maxTry) {                            //Check if maxtry count is reached
-                count++;                                     //Increase the maxTry count by 1
+        if (!iTestResult.isSuccess()) {                     
+            if (count < maxTry) {                            
+                count++;                                    
                 iTestResult.setStatus(ITestResult.FAILURE);  //Mark test as failed
              
                 return true;                                 //Tells TestNG to re-run the test
