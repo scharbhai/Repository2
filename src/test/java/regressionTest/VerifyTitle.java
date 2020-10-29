@@ -1,3 +1,6 @@
+/*
+ * Author: Shailaja Charbhai
+ */
 package regressionTest;
 
 import org.openqa.selenium.WebDriver;
