@@ -1,6 +1,7 @@
 /*
  * Author: Shailaja Charbhai
  */
+
 package regressionTest;
 
 import org.openqa.selenium.WebDriver;
@@ -11,6 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VerifyTitle {
 
+	//Test verifies page title  
 	@Test(retryAnalyzer = RetryAnalyzer.class)
 	public void testCorrectTitle() throws InterruptedException  {
 		WebDriverManager.chromedriver().setup();
