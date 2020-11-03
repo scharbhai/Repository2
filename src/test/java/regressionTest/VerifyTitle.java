@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VerifyTitle {
 
-	//This Test verifies the page title  
+	//This Test verifies the page title  of the LTI website
 	@Test
 	public void testVerifyTitle() throws InterruptedException  {
 		WebDriverManager.chromedriver().setup();
