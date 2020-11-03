@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14233" started-at="2020-10-28T16:23:21 IST" finished-at="2020-10-28T16:23:35 IST">
+  <suite name="Suite" duration-ms="13822" started-at="2020-11-03T14:37:43 IST" finished-at="2020-11-03T14:37:57 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14233" started-at="2020-10-28T16:23:21 IST" finished-at="2020-10-28T16:23:35 IST">
+    <test name="Test" duration-ms="13822" started-at="2020-11-03T14:37:43 IST" finished-at="2020-11-03T14:37:57 IST">
       <class name="regressionTest.VerifyTitle">
-        <test-method status="PASS" signature="testCorrectTitle()[pri:0, instance:regressionTest.VerifyTitle@6c49835d]" name="testCorrectTitle" duration-ms="14147" started-at="2020-10-28T16:23:21 IST" finished-at="2020-10-28T16:23:35 IST">
+        <test-method status="PASS" signature="testVerifyTitle()[pri:0, instance:regressionTest.VerifyTitle@6c49835d]" name="testVerifyTitle" duration-ms="13697" started-at="2020-11-03T14:37:43 IST" finished-at="2020-11-03T14:37:57 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCorrectTitle -->
+        </test-method> <!-- testVerifyTitle -->
       </class> <!-- regressionTest.VerifyTitle -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

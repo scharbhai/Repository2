@@ -12,15 +12,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VerifyTitle {
 
-	//Test verifies page title  
-	@Test(retryAnalyzer = RetryAnalyzer.class)
-	public void testCorrectTitle() throws InterruptedException  {
+	//This Test verifies the page title  
+	@Test
+	public void testVerifyTitle() throws InterruptedException  {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://Amazon.com");
+		driver.get("https://www.lntinfotech.com/");
 		Thread.sleep(1000);
-		Assert.assertTrue(driver.getTitle().contains("Amazon"));
+		Assert.assertTrue(driver.getTitle().contains("LTI"));
 		Thread.sleep(1000);
 		driver.quit();
 		
