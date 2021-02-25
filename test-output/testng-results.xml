@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13822" started-at="2020-11-03T14:37:43 IST" finished-at="2020-11-03T14:37:57 IST">
+  <suite name="Default suite" duration-ms="20085" started-at="2021-02-25T11:09:58 IST" finished-at="2021-02-25T11:10:18 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13822" started-at="2020-11-03T14:37:43 IST" finished-at="2020-11-03T14:37:57 IST">
-      <class name="regressionTest.VerifyTitle">
-        <test-method status="PASS" signature="testVerifyTitle()[pri:0, instance:regressionTest.VerifyTitle@6c49835d]" name="testVerifyTitle" duration-ms="13697" started-at="2020-11-03T14:37:43 IST" finished-at="2020-11-03T14:37:57 IST">
+    <test name="Default test" duration-ms="20085" started-at="2021-02-25T11:09:58 IST" finished-at="2021-02-25T11:10:18 IST">
+      <class name="regressionTest.VerifyClick">
+        <test-method status="PASS" signature="testVerifyTitle()[pri:0, instance:regressionTest.VerifyClick@6c49835d]" name="testVerifyTitle" duration-ms="19965" started-at="2021-02-25T11:09:58 IST" finished-at="2021-02-25T11:10:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyTitle -->
-      </class> <!-- regressionTest.VerifyTitle -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- regressionTest.VerifyClick -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
