@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="regressionTest.VerifyTitle">
+      <class name="regressionTest.VerifyClick">
         <methods>
-          <include name="testCorrectTitle"/>
+          <include name="testVerifyTitle"/>
         </methods>
-      </class> <!-- regressionTest.VerifyTitle -->
+      </class> <!-- regressionTest.VerifyClick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class VerifySearch {
 
 	//This Test verifies the Search functionality  
+	
 	@Test
 	public void testVerifyTitle() throws InterruptedException  {
 		WebDriverManager.chromedriver().setup();
