@@ -17,7 +17,7 @@ public class VerifySearch {
 	//This Test verifies the Search functionality  
 	
 	@Test
-	public void testVerifyTitle() throws InterruptedException  {
+	public void testVerifySearch() throws InterruptedException  {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
