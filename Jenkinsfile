@@ -1,23 +1,11 @@
-pipeline {
-         agent any
-         stages {
-                 stage('Build') {
-                 steps {
-                     echo 'Building'
-                 }
-                 }
-                 stage('Test') {
-                 steps {
-                    echo 'Testing'
-                 }
-                 }
-                 stage('Deploy') {
-                  steps {
-                    echo 'Deploying'
-                 }
-
-                 }
-                 
-                 }
-                 
-              }
+node ("windows"){
+	stage ('SCM checkout'){
+		git url: "https://github.com/scharbhai/Repository2.git"
+		}
+	stage ('Build'){
+    	{
+	   sh "mvn clean install"
+       }
+      
+		}
+}
