@@ -1,11 +1,7 @@
-node ("windows"){
+node{
 	stage ('SCM checkout'){
-		git url: "https://github.com/scharbhai/Repository2.git"
-		}
-	stage ('Build'){
-    	{
-	   sh "mvn clean install"
+		git "https://github.com/scharbhai/Repository2.git"
+		   sh "mvn clean install"
        }
-      
-		}
-}
+      		}
+
