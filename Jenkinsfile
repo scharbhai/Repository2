@@ -1,9 +1,13 @@
-node{
-	stage ('SCM checkout'){
-		git "https://github.com/scharbhai/Repository2.git"
-		}
-		stage ('test'){
-		   sh 'mvn clean test'
-       }
-      		}
-
+pipeline {
+  agent any
+  stages {
+    stage('Test') {
+      steps {
+        echo 'Execute Tests'
+        echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+        echo "Jenkins Workspace ${env.WORKSPACE}"
+                bat "mvn clean test -DsuiteXMLFile=testng.xml"
+      }
+    } 
+  }
+}
