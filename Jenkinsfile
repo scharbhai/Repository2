@@ -1,6 +1,11 @@
 pipeline {
   agent any
   stages {
+  stage('Build') {
+                 steps {
+                     echo 'Building'
+                 }
+                 }
     stage('Test') {
       steps {
         echo 'Execute Tests'
@@ -9,5 +14,10 @@ pipeline {
                 bat "mvn clean test -DsuiteXMLFile=testng.xml"
       }
     } 
+     stage('Deploy') {
+                  steps {
+                    echo 'Deploying'
+                 }
+                 }
   }
 }
