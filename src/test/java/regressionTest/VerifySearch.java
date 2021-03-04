@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VerifySearch {
-
 	/*
 	 * This Test verifies the Search functionality  
 	 */
