@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class VerifySearch {
 	/*
-	 * This Test verifies the Search functionality  
+	 * This Test verifies the Search functionality  on LTI website
 	 */
 	
 	@Test
