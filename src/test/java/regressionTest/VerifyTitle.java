@@ -1,7 +1,6 @@
 /*
  * Author: Shailaja Charbhai
- * Date 
-  */
+   */
 
 package regressionTest;
 
